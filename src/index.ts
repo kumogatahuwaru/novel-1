@@ -15,9 +15,9 @@ class MyScene extends Phaser.Scene {
 
   create() {
     // 画面中央に画像とテキストを配置
-    this.add.image(1920, 1080, 'street');
-    this.add.image(1920, 1080, 'robot');
-    this.add.text(1920, 1080, 'Hello World', {fontFamily:'arial', fontSize: '60px'}).setOrigin(0.5);
+    this.add.image(400, 300, 'street');
+    this.add.image(400, 300, 'robot');
+    this.add.text(400, 300, 'Hello World', {fontFamily:'arial', fontSize: '60px'}).setOrigin(0.5);
   }
 }
 
